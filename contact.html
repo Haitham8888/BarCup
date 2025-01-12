@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا - BARCUP</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <img src="img/barcup.jpg" alt="BARCUP Logo" style="width: 60px; height: auto;">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">الرئيسية</a>
+                <a href="about.html">من نحن</a>
+                <a href="menu.html">المنيو</a>
+                <a href="contact.html" class="active">تواصل معنا</a>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <h1>تواصل معنا</h1>
+                <p class="hero-desc">نحن هنا لمساعدتك! تواصل معنا عبر حساباتنا على وسائل التواصل الاجتماعي أو عبر البريد الإلكتروني.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">ابقى على تواصل</h2>
+            <div class="contact-info">
+                <p>تابعنا على حساباتنا في وسائل التواصل الاجتماعي وتواصل معنا عبر الرسائل الخاصة:</p>
+                <a href="https://www.instagram.com/barcup.sa" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.snapchat.com/add/barcup.sa" target="_blank"><i class="fab fa-snapchat"></i> Snapchat</a>
+                <a href="mailto:info@barcup.sa"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+            <form class="contact-form" action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h2>BARCUP | بار كب</h2>
+            <p>Coffee shop</p>
+            <p>قهوة مختصة في جازان نهتم بتوفير مذاق متفرد فيما نصنع، إبتداءً من كوب القهوة إلى الحلويات.</p>
+            <p>📍بوليفارد جازان</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/barcup.sa"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/add/barcup.sa"><i class="fab fa-snapchat"></i></a>
+            </div>
+        </div>
+        <p>جميع الحقوق محفوظة &copy; 2024 BARCUP</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
